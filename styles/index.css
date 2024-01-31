@@ -92,6 +92,10 @@ body {
   width: 170px;
   height: 56px;
   border-radius: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -102,6 +106,10 @@ body {
   height: 56px;
   border-radius: 16px;
   border: none;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 2px;
   background-color: rgba(255, 255, 255, 0);
   color: #ffffff;
   border: 1px solid;
