@@ -16,11 +16,12 @@ body {
 }
 
 .nav-bar {
-  width: 1290px;
+  width: 100vh;
   height: 56px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 48px;
+  position: absolute;
 }
 
 .links {
@@ -33,9 +34,11 @@ body {
 .links > a {
   text-decoration: none;
   color: #ff0a0a;
+  position: relative;
+  font-size: 24px;
 }
 
-.nav-bar > a {
+#btn-nav {
   text-decoration: none;
   background-color: #ff0a0a;
   width: 155px;
@@ -44,6 +47,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin-right: 30px;
 }
 
 #home {
